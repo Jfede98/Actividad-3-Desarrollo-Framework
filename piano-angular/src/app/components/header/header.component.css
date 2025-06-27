@@ -1,0 +1,25 @@
+.marca{
+    width: 80%;
+
+}
+
+.navbar{
+  background-image: url('/assets/header_bg.webp');
+   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 1000;
+}
+
+.navbar .nav-link {
+  color: var(--primary)!important;
+  cursor: pointer;
+}
+
+.navbar .nav-link:hover {
+  background-color: var(--support)!important;
+  border-radius: 0.3rem;
+}
+.padding{
+  padding-top:8%;
+}
