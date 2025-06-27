@@ -1,0 +1,19 @@
+small{
+    font-size: 0.7rem;
+}
+
+.red{
+  width: 2rem;
+  transition: transform 0.3s ease;
+  cursor:pointer;
+}
+
+
+.red:hover {
+  transform: scale(1.2);
+}
+
+.bg{
+  background-color: var(--secondary);
+}
+
