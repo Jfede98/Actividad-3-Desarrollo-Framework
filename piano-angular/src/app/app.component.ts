@@ -17,11 +17,11 @@ import { FooterComponent } from './components/footer/footer.component';
     AsideComponent,
     VideoComponent,
     BrandComponent,
-    FooterComponent
+    FooterComponent,
   ],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'piano-angular';
+  title = 'Piano Store';
 }

@@ -10,5 +10,5 @@ export const routes: Routes = [
   { path: 'digitales', component: DigitalesComponent },
   { path: 'suscribete', component: SuscribeteComponent },
   { path: '', redirectTo: 'suscribete', pathMatch: 'full' },
-  { path: '**', redirectTo: '' } 
+  { path: '**', redirectTo: '' },
 ];
