@@ -21,3 +21,4 @@ describe('BrandComponent', () => {
     expect(component).toBeTruthy();
   });
 });
+
