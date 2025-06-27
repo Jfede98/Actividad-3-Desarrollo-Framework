@@ -1,0 +1,14 @@
+h4{
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--light);
+}
+
+.icon_color{
+    color: var(--light);
+     font-size: 3rem;
+}
+.h4_bg{
+    background-color: var(--primary);
+    
+}
