@@ -1,1 +1,36 @@
-<p>digitales works!</p>
+<div class="container py-5">
+  <h2 class="text-center mb-4">
+    Pianos digitales: innovación, portabilidad y tecnología
+  </h2>
+  <p class="text-center pb-4 txt_negro">
+    Los pianos digitales han revolucionado la práctica musical moderna al
+    ofrecer una alternativa compacta, versátil y tecnológicamente avanzada a los
+    pianos acústicos tradicionales. Equipados con teclas contrapesadas, sonidos
+    muestreados con alta fidelidad y funciones integradas como metrónomo,
+    grabación y conectividad MIDI/USB, estos instrumentos permiten a músicos de
+    todos los niveles estudiar, componer y presentarse con total libertad.
+  </p>
+  <p class="text-center pb-4 txt_negro">
+    Además de su facilidad de transporte y menor requerimiento de mantenimiento,
+    los pianos digitales actuales han alcanzado un nivel de realismo
+    sorprendente tanto en el tacto como en el sonido, acercándose cada vez más a
+    la experiencia acústica. Ya sea para el hogar, el estudio o el escenario,
+    existe un modelo digital adaptado a cada necesidad.
+  </p>
+
+  <div class="row g-4">
+    <div class="col-12 col-sm-6 col-lg-4" *ngFor="let item of pianosDigitales">
+      <div class="card h-100 shadow-sm">
+        <img
+          [src]="item.imagen"
+          class="imagen_tarjeta"
+          alt="{{ item.titulo }}"
+        />
+        <div class="card-body">
+          <h4 class="card-title text-center piano_titulo">{{ item.titulo }}</h4>
+          <p class="card-text text-center txt_negro">{{ item.descripcion }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

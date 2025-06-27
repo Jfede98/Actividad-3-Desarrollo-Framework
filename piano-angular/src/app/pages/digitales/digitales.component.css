@@ -1,0 +1,11 @@
+.imagen_tarjeta {
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 4%;
+}
+.texto {
+  font-size: 0.9rem;
+}
+.piano_titulo {
+  color: var(--secondary);
+}
