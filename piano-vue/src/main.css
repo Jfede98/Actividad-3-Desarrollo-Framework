@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0%;
+  font-family: "Inter", sans-serif;
+}
+:root {
+  --primary: #220011;
+  --secondary: #76020c;
+  --complementary: #ebb869;
+  --textcolor: #071922;
+  --support: #f2d7b6;
+  --light: #fff;
+}
+h1 {
+  font-style: oblique;
+  color: var(--secondary);
+  padding: 4% 0% 6% 0%;
+}
+h2 {
+  color: var(--prymary);
+  font-size: 1.8rem;
+}
+h3 {
+  font-size: 1rem;
+  color: var(--text);
+}
+h4 {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+p {
+  color: var(--support);
+  line-height: 2rem;
+  font-size: 1rem;
+}
+.txt_negro {
+  color: var(--textcolor);
+}
+.txt_rojo {
+  color: var(--secondary);
+}
+.hr {
+  width: 90%;
+  margin: auto;
+}
