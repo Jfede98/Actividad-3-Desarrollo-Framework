@@ -1,17 +1,22 @@
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup, Validators, ReactiveFormsModule } from '@angular/forms';
+import {
+  FormBuilder,
+  FormGroup,
+  Validators,
+  ReactiveFormsModule,
+} from '@angular/forms';
 import { CommonModule } from '@angular/common';
-import { FormularioService } from '../../services/formulario.service';
+import { FormularioService } from '../../Services/formulario.service';
 
 @Component({
   selector: 'app-contacto',
   standalone: true,
   imports: [CommonModule, ReactiveFormsModule],
   templateUrl: './suscribete.component.html',
-  styleUrls: ['./suscribete.component.css']
+  styleUrls: ['./suscribete.component.css'],
 })
 export class SuscribeteComponent implements OnInit {
-  contactoForm!: FormGroup; 
+  contactoForm!: FormGroup;
   mostrarMensaje: boolean = false;
 
   constructor(
@@ -23,7 +28,7 @@ export class SuscribeteComponent implements OnInit {
     this.contactoForm = this.fb.group({
       nombre: ['', Validators.required],
       telefono: ['', [Validators.required, Validators.pattern('^[0-9]{10}$')]],
-      correo: ['', [Validators.required, Validators.email]]
+      correo: ['', [Validators.required, Validators.email]],
     });
   }
 
