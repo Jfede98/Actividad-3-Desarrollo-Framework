@@ -1,0 +1,16 @@
+
+*{
+    margin:0px;
+}
+.border{
+    border-radius: 0.2rem;
+}
+
+.teclado{
+    width: 100%;
+    margin: 0%;;
+}
+
+.bg_black{
+    background-color: black;
+}
