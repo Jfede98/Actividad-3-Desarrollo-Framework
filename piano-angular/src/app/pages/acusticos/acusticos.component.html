@@ -1,1 +1,17 @@
-<p>acusticos works!</p>
+<div class="container py-5">
+  <h2 class="text-center mb-4">Descubre los tipos de pianos acústicos
+</h2>
+  <p class="text-center pb-4 txt_negro">El piano acústico es una obra maestra de la ingeniería musical, símbolo de elegancia y expresión sonora. A lo largo de su evolución, se han desarrollado distintas variantes que responden a las necesidades de interpretación, espacio y proyección sonora.Desde la majestuosidad del piano de cola hasta la funcionalidad compacta de los pianos verticales, cada tipo ofrece una experiencia única para el intérprete y el oyente.</p>
+
+  <div class="row g-4">
+    <div class="col-12 col-sm-6 col-lg-4" *ngFor="let item of pianosAcusticos">
+      <div class="card h-100 shadow-sm">
+        <img [src]="item.imagen" class="imagen_tarjeta" alt="{{ item.titulo }}">
+        <div class="card-body">
+          <h4 class="card-title text-center {{ item.estilo }}">Piano {{ item.titulo }}</h4>
+          <p class="card-text text-center txt_negro">{{ item.descripcion }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
