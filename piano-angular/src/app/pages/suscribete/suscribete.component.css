@@ -1,0 +1,9 @@
+.btn_enviar{
+    background-color: var(--secondary);
+    border: 0px;
+}
+
+.btn_enviar:hover{
+    background-color: var(--complementary);
+    
+}
